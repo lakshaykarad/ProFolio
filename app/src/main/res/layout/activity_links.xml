@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:visibility="visible"
+    tools:context=".Links" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnlinkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linkedin"
+            />
+
+        <Button
+            android:id="@+id/btnGithub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Github" />
+
+        <Button
+            android:id="@+id/btnLeetCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LeetCode" />
+
+        <Button
+            android:id="@+id/btnUpwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upwork" />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-Mail"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Click the buttons below to visit your LinkedIn, GitHub, LeetCode, Upwork profiles or to send an email" />
+    </LinearLayout>
+</LinearLayout>

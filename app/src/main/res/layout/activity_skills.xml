@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SkillsActivity">
+
+    <!-- Buttons for each skill -->
+    <Button
+        android:id="@+id/btn_cpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++" />
+
+    <Button
+        android:id="@+id/btn_kotlin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kotlin" />
+
+    <Button
+        android:id="@+id/btn_android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Development" />
+
+    <Button
+        android:id="@+id/btn_dsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DSA" />
+
+    <Button
+        android:id="@+id/btn_html"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HTML, CSS, JS" />
+
+    <Button
+        android:id="@+id/btn_python"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python" />
+
+    <!-- TextView to show skill description -->
+    <TextView
+        android:id="@+id/tv_skill_description"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:scrollbarSize="10dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:text="Select a skill to see the description" />
+
+</LinearLayout>

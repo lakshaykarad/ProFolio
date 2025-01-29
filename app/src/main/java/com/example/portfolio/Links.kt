@@ -14,31 +14,36 @@ class Links : AppCompatActivity() {
         // LinkedIn Button
         val btnLinkedin = findViewById<Button>(R.id.btnlinkedin)
         btnLinkedin.setOnClickListener {
-            openUrl("https://www.linkedin.com/in/lakshay-karad-2286882bb/")
+            //Enter your linkedin link 
+            openUrl("")
         }
 
         // GitHub Button
         val btnGithub = findViewById<Button>(R.id.btnGithub)
         btnGithub.setOnClickListener {
-            openUrl("https://github.com/lakshaykarad")
+            //Enter your github link
+            openUrl("")
         }
 
         // LeetCode Button
         val btnLeet = findViewById<Button>(R.id.btnLeetCode)
         btnLeet.setOnClickListener {
-            openUrl("https://leetcode.com/u/karadlakshay7/")
+            // Enter your extra link
+            openUrl("")
         }
 
         // Upwork Button
         val btnUpwork = findViewById<Button>(R.id.btnUpwork)
         btnUpwork.setOnClickListener {
-            openUrl("https://www.upwork.com/freelancers/~0180c4dfd5297299a0?mp_source=share")
+            // Enter extra link
+            openUrl("")
         }
 
         // Email Button
         val btnEmail: Button = findViewById<Button>(R.id.btnEmail)
         btnEmail.setOnClickListener {
-            sendEmail("harshhers@gmail.com")
+            // Enter your gmail id
+            sendEmail("abc@gmail.com")
         }
     }
 
